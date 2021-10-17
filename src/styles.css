@@ -41,6 +41,10 @@ https://micku7zu.github.io/vanilla-tilt.js/index.html
   padding-left: 30px;
 }
 
+.board {
+  display: flex;
+}
+
 .board-row:after {
   clear: both;
   content: '';
@@ -219,4 +223,19 @@ body[class*='6'] > iframe {
 .pokemon-info-app button.invisible-button:focus {
   border: none;
   background-color: transparent;
+}
+
+.history {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.history button {
+  margin-top: 10px;
+  text-align: left;
+}
+
+.history button:disabled {
+  color: blue;
 }
